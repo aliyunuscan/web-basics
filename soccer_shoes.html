@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Shoes - Shoe Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="mb-0">Welcome to Our Soccer Shoes Collection</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shoe Store</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Product Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="best_selling.html">Best Selling Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="addProductPage.html">Add New Product</a></li>
+                                <li><a class="dropdown-item text-white" href="membership.html">Membership Fee</a></li>
+                                <li><a class="dropdown-item text-white" href="productTable.html">Product Table</a></li>
+                                <li><a class="dropdown-item text-white" href="loginPage.html">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <div id="alert-container"></div>
+        <section>
+            <h2 class="mb-4">Soccer Shoes Collection</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer1_details.html">
+                            <img src="soccer1.png" class="card-img-top" alt="Soccer Shoe 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Soccer Shoe Type 1</h5>
+                            <p class="card-text text-primary">$120</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer2_details.html">
+                            <img src="soccer2.png" class="card-img-top" alt="Soccer Shoe 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Soccer Shoe Type 2</h5>
+                            <p class="card-text text-primary">$129</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer3_details.html">
+                            <img src="soccer3.png" class="card-img-top" alt="Soccer Shoe 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Soccer Shoe Type 3</h5>
+                            <p class="card-text text-primary">$99</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer4_details.html">
+                            <img src="soccer4.png" class="card-img-top" alt="Soccer Shoe 4">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Soccer Shoe Type 4</h5>
+                            <p class="card-text text-primary">$119</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer5_details.html">
+                            <img src="soccer5.png" class="card-img-top" alt="Soccer Shoe 5">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Soccer Shoe Type 5</h5>
+                            <p class="card-text text-primary">$139</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-auto py-1 bg-light">
+        <div class="container">
+            <p class="text-muted">&copy; 2024 Shoe Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('.btn-primary');
+    
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function(event) {
+                    const alertContainer = document.getElementById('alert-container');
+                const alert = `
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        Item added to cart!
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                `;
+                alertContainer.innerHTML = alert;
+                });
+            });
+        });
+    </script>
+</body>
+</html>

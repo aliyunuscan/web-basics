@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Nike Daily Type 1",
+    "description": "Comfortable and stylish Nike shoes.",
+    "price": 150,
+    "category": "daily"
+  },
+  {
+    "name": "Nike Daily Type 2",
+    "description": "Comfortable and stylish Nike shoes.",
+    "price": 180,
+    "category": "daily"
+  },
+  {
+    "name": "Nike Daily Type 3",
+    "description": "Comfortable and stylish Nike shoes.",
+    "price": 179,
+    "category": "daily"
+  },
+  {
+    "name": "Nike Daily Type 4",
+    "description": "Comfortable and stylish Nike shoes.",
+    "price": 150,
+    "category": "daily"
+  },
+  {
+    "name": "Nike Daily Type 5",
+    "description": "Comfortable and stylish Nike shoes.",
+    "price": 110,
+    "category": "daily"
+  },
+  {
+    "name": "Nike Soccer Type 1",
+    "description": "Performance and power Nike shoes",
+    "price": 120,
+    "category": "soccer"
+  },
+  {
+    "name": "Nike Soccer Type 2",
+    "description": "Performance and power Nike shoes",
+    "price": 129,
+    "category": "soccer"
+  },
+  {
+    "name": "Nike Soccer Type 3",
+    "description": "Performance and power Nike shoes",
+    "price": 99,
+    "category": "soccer"
+  },
+  {
+    "name": "Nike Soccer Type 4",
+    "description": "Performance and power Nike shoes",
+    "price": 119,
+    "category": "soccer"
+  },
+  {
+    "name": "Nike Soccer Type 5",
+    "description": "Performance and power Nike shoes",
+    "price": 139,
+    "category": "soccer"
+  },
+  {
+    "name": "Nike Running Type 1",
+    "description": "Fast and comfortable Nike shoes",
+    "price": 109,
+    "category": "running"
+  },
+  {
+    "name": "Nike Running Type 2",
+    "description": "Fast and comfortable Nike shoes",
+    "price": 120,
+    "category": "running"
+  },
+  {
+    "name": "Nike Running Type 3",
+    "description": "Fast and comfortable Nike shoes",
+    "price": 149,
+    "category": "running"
+  },
+  {
+    "name": "Nike Running Type 4",
+    "description": "Fast and comfortable Nike shoes",
+    "price": 139,
+    "category": "running"
+  },
+  {
+    "name": "Nike Running Type 5",
+    "description": "Fast and comfortable Nike shoes",
+    "price": 129,
+    "category": "running"
+  },
+  {
+    "name": "my new shoes",
+    "description": "asdas",
+    "price": "999",
+    "category": "running"
+  }
+]

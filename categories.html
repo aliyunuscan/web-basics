@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap">
+    <title>Shoe Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="mb-0">Shoe Categories</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shoe Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="categories.html">Product Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="best_selling.html">Best Selling Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="addProductPage.html">Add New Product</a></li>
+                                <li><a class="dropdown-item text-white" href="membership.html">Membership Fee</a></li>
+                                <li><a class="dropdown-item text-white" href="productTable.html">Product Table</a></li>
+                                <li><a class="dropdown-item text-white" href="loginPage.html">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="runningman.jpg" class="card-img-top" alt="Running Shoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Running Shoes</h5>
+                            <p class="card-text">Explore our collection of high-performance running shoes.</p>
+                            <a href="running_shoes.html" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="manwalkingdaily.jpg" class="card-img-top" alt="Daily Shoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Daily Shoes</h5>
+                            <p class="card-text">Discover our trendy and comfortable daily shoes.</p>
+                            <a href="daily_shoes.html" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="soccerman.png" class="card-img-top" alt="Soccer Shoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Soccer Shoes</h5>
+                            <p class="card-text">Stay strong and fast with our perfect soccer shoes.</p>
+                            <a href="soccer_shoes.html" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-auto py-1 bg-light">
+        <div class="container">
+            <p class="text-muted">&copy; 2024 Shoe Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

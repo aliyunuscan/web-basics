@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="mb-0">Welcome to the Shoe Store</h1>
+            <span id="datetime" class="text-white"></span>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shoe Store</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" ><span>Home</span></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html"><span>Product Categories</span></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="best_selling.html"><span>Selling Products</span></a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-white" href="addProductPage.html">Add New Product</a></li>
+                                <li><a class="dropdown-item text-white" href="membership.html">Membership Fee</a></li>
+                                <li><a class="dropdown-item text-white" href="productTable.html">Product Table</a></li>
+                                <li><a class="dropdown-item text-white" href="loginPage.html">Login</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            We use cookies on our website to give you the most relevant experience by remembering your preferences. By using this website, you consent to the use of ALL the cookies.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div id="countdown" class="mb-4"></div> <!-- remaining time -->
+        <section>
+            <div id="alert-container"></div>
+            <h2 class="mb-4">Featured Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="daily1_details.html">
+                            <img src="daily1.png" class="card-img-top" alt="Daily Type 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Daily Type 1</h5>
+                            <p class="card-text text-primary">$150</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="daily2_details.html">
+                            <img src="daily2.png" class="card-img-top" alt="Daily Type 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Daily Type 2</h5>
+                            <p class="card-text text-primary">$180</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="daily3_details.html">
+                            <img src="daily3.png" class="card-img-top" alt="Daily Type 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Daily Type 3</h5>
+                            <p class="card-text text-primary">$179</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="daily4_details.html">
+                            <img src="daily4.png" class="card-img-top" alt="Daily Type 4">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Daily Type 4</h5>
+                            <p class="card-text text-primary">$150</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="daily5_details.html">
+                            <img src="daily5.png" class="card-img-top" alt="Daily Type 5">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Daily Type 5</h5>
+                            <p class="card-text text-primary">$110</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="mb-4">New Arrivals</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer1_details.html">
+                            <img src="soccer1.png" class="card-img-top" alt="New Arrival 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">New Arrival 1</h5>
+                            <p class="card-text text-primary">$120</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer2_details.html">
+                            <img src="soccer2.png" class="card-img-top" alt="New Arrival 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">New Arrival 2</h5>
+                            <p class="card-text text-primary">$129</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer3_details.html">
+                            <img src="soccer3.png" class="card-img-top" alt="New Arrival 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">New Arrival 3</h5>
+                            <p class="card-text text-primary">$99</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer4_details.html">
+                            <img src="soccer4.png" class="card-img-top" alt="New Arrival 4">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">New Arrival 4</h5>
+                            <p class="card-text text-primary">$119</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="soccer5_details.html">
+                            <img src="soccer5.png" class="card-img-top" alt="New Arrival 5">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">New Arrival 5</h5>
+                            <p class="card-text text-primary">$139</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="mb-4">Best Sellers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="running1_details.html">
+                            <img src="running1.png" class="card-img-top" alt="Best Seller 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Best Seller 1</h5>
+                            <p class="card-text text-primary">$109</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="running2_details.html">
+                           <img src="running2.png" class="card-img-top" alt="Best Seller 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Best Seller 2</h5>
+                            <p class="card-text text-primary">$120</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="running3_details.html">
+                            <img src="running3.png" class="card-img-top" alt="Best Seller 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Best Seller 3</h5>
+                            <p class="card-text text-primary">$149</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="running4_details.html">
+                            <img src="running4.png" class="card-img-top" alt="Best Seller 4">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Best Seller 4</h5>
+                            <p class="card-text text-primary">$139</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <a href="running5_details.html">
+                            <img src="running5.png" class="card-img-top" alt="Best Seller 5">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Best Seller 5</h5>
+                            <p class="card-text text-primary">$129</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-auto py-1 bg-light">
+        <div class="container">
+            <p class="text-muted">&copy; 2024 Shoe Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="alert.js"></script>
+    <script src="time.js"></script>
+    <script src="remainingTime.js"></script>
+</body>
+</html>
